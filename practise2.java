@@ -35,7 +35,7 @@ public class practise2 {
 			Actions a = new Actions(d);
 			d.switchTo().frame(0);
 			a.dragAndDrop(d.findElement(By.id("draggable")),d.findElement(By.id("droppable"))).perform();
-			Thread.sleep(3000);
+		
 		}
 		catch (Exception e) {
 			DateFormat sdf = new SimpleDateFormat("dd-MM-yy HH-mm-ss");
